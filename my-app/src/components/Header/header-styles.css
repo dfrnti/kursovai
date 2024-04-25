@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: aquamarine;
+}
+
+img {
+    width: 10%;
+}
+
+nav {
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li > a {
+    text-decoration: none;
+    font: 18px;
+    color: blue;
+}
