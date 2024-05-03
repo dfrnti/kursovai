@@ -1,1 +1,1 @@
-# kurso
+# kursovai
