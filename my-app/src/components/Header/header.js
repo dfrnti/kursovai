@@ -1,22 +1,19 @@
 import './header-styles.css'
-import logo from '../../logo.svg'
+import logo from '../../images/GreenBooK.png'
 import { useState } from 'react';
 
 export default () => {
-    const [now, setNow] = useState(new Date());
-
-    setInterval(() => setNow (new Date()), 1000)
     return (
-        <header>
-        <img src={logo} alt='logo react'></img>
+        <header class='header'>
+          <div class='Green'>
+          <img class='img' src={logo} alt='logo react'></img>
+          </div>
         <nav>
           <ul>
-            <li><a href='#'>Item 1</a></li>
-            <li><a href='#'>Item 2</a></li>
-            <li><a href='#'>Item 3</a></li>
+            <li><a href="">Корзина</a></li>
+            <li><a href="">Войти</a></li>
           </ul>
         </nav>
-        <span>Time now: {(new Date()).toLocaleTimeString()}</span>
       </header>
     );
 }
