@@ -8,12 +8,12 @@ export default () => {
           <div class='Green'>
           <img class='img' src={logo} alt='logo react'></img>
           </div>
-        <nav>
+        {/* <nav> */}
           <ul>
             <li><a href="">Корзина</a></li>
             <li><a href="">Войти</a></li>
           </ul>
-        </nav>
+        {/* </nav> */}
       </header>
     );
 }

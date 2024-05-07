@@ -9,15 +9,15 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <section>
+        {/* <section>
           <dl>
             {dataForList.map((item) => <MainList {...item} />)}
           </dl>
-        </section>
-        <section>
+        </section> */}
+        {/* <section>
           <h3>All buttons</h3>
           <Button />
-        </section>
+        </section> */}
       </main>
     </div>
   );
