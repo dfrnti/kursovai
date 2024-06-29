@@ -59,7 +59,7 @@ const StudioForm = () => {
 
   return (
     <div>
-      <h2>Форма для аренды фотостудии</h2>
+      <h2>Заполните форму для аренды фотостудии</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="fullName">ФИО</label>
